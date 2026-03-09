@@ -175,6 +175,7 @@ import Proyek1 from "/assets/proyek/proyek1.jpg";
 import Proyek2 from "/assets/proyek/proyek2.jpg";
 import Proyek3 from "/assets/proyek/proyek3.jpg";
 import Proyek4 from "/assets/proyek/proyek4.jpg";
+import Proyek7 from "/assets/proyek/proyek7.png";
 
 export const listProyek = [
   {
@@ -220,5 +221,16 @@ export const listProyek = [
     gradient: "linear-gradient(180deg, #10B981, #000)",
     url: "https://github.com/methefor",
     dad: "400",
+  },
+  {
+    id: 5,
+    image: Proyek7,
+    title: "Sweet Track",
+    subtitle: "Multi-branch dessert production & delivery tracking system — real-world SaaS for 6 branches",
+    fullDescription: "A real-world production web app built for Mutlukent Esenlik Hizmetleri A.Ş. to manage daily dessert distribution across 6 branches. Branch managers log incoming deliveries and end-of-day stock; sales are calculated automatically. Features role-based access (Manager, Admin, Delivery, Confectioner), PIN-protected panels, inter-branch transfers, waste tracking, KPI dashboard with Chart.js, a delivery planner with per-dessert smart thresholds, and full PWA support with Service Worker. Built with Vanilla JS, Supabase (PostgreSQL), and deployed on Vercel.",
+    borderColor: "#f59e0b",
+    gradient: "linear-gradient(145deg, #f59e0b, #000)",
+    url: "https://github.com/Methefor/Tatli-Imalat-Dagitim",
+    dad: "500",
   },
 ];
